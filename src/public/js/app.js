@@ -6,8 +6,9 @@ function handleOpen() {
   console.log("Connected to Server ✅");
 }
 socket.addEventListener("open", handleOpen);
+
 socket.addEventListener("message", (message) => {
-  console.log("New message: ", message.data);
+  const li = document.cde4reateElement("li");
 });
 socket.addEventListener("close", () => {
   console.log("Disconnected from Server ❌");
